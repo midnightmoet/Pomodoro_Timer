@@ -4,46 +4,43 @@ body {
     font-family: Roboto,sans-serif;
 }
 
-header {
+.title {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 200;
     background: seagreen;
     color: #ffffff;
     padding: 10px;
     text-align: center;
     height: 50px;
-    font-size: 1.5rem;
-    border-bottom: #ffffff 3px solid;
-}
-
-header h1 {
-    margin: 0px;
-    padding: 0px;
-    font-weight: 200;
+    font-size: 3rem;
+    border-bottom: 1px solid black;
 }
 
 .container {
     margin: 0 auto;
     max-width: 400px;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
 }
 
 .timer {
-    font-size: 2rem;
-    font-weight: 200;
-    margin: 0px;
-    padding: 0px;
-    
-}
-
-.button-wrapper {
     background: black;
     color: white;
     font-size: 5rem;
     font-weight: 200;
-    margin: 50px;
-    padding: 0px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
     border: 1px solid black;
     box-shadow: 5px 10px 5px 5px seagreen;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .buttons {
@@ -93,6 +90,7 @@ button {
     color: white;
     text-align: center;
     padding-bottom: 10px;
+    border-top: 1px solid black;
 }
 
 .footer a {

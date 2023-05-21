@@ -8,22 +8,15 @@
 		<title>Timer App</title>
 	</head>
 	<body>
-		<header>
-			<h1>Pomodoro Timer</h1>
-		</header>
-        <div class="container">
-        	<div class="timer" id="timer">
-            	<div class="button-wrapper">
-                	<span class="minutes">25</span>
-                	<span class="colon">:</span>
-                	<span class="seconds">00</span>
-            	</div>
-            	<div class="mode"></div>
-        		<div class="buttons">
-            		<button id="start">start</button>
-            		<button id="stop">stop</button>
-            		<button id="reset">reset</button>
-        	</div>
+		<header><h1 class="title">Pomodoro Timer</h1></header>
+		<div class="container">
+			<canvas class="confetti" id="canvas"></canvas>
+			<p class="timer" id="timer">25:00</p>
+			<div class="button-wrapper">
+				<button id="start">Start</button>
+				<button id="stop">Stop</button>
+				<button id="reset">Reset</button>
+			</div>
 		</div>
         
 		<footer class="footer">
