@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Times Roman", serif;
+}
+
+header {
+    background: seagreen;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    font-size: 1.5rem;
+    border-bottom: #ffffff 3px solid;
+}
+
+header h1 {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 200;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: seagreen;
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.footer .heart {
+    color: red;
+}
