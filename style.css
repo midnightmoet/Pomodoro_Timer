@@ -35,7 +35,7 @@ header h1 {
     
 }
 
-.time {
+.button-wrapper {
     background: black;
     color: white;
     font-size: 5rem;
@@ -55,14 +55,33 @@ header h1 {
 }
 
 button {
-    background: seagreen;
     color: #ffffff;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 5px; 
-    cursor: pointer;
-    font-size: 1rem;
+    font-size: 18px;
     border: 0px;
+    margin: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
 
+#start {
+    background: seagreen;
+}
+
+#stop {
+    background: red;
+}
+
+#reset {
+    background: orange;
+}
+
+#start:hover, #stop:hover, #reset:hover {
+    background: #ffffff;
+    color: seagreen;
+    font-style: italic;
+    border: seagreen 1px solid;
 }
 
 .footer {
@@ -73,6 +92,7 @@ button {
     background: seagreen;
     color: white;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .footer a {
